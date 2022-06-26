@@ -1,0 +1,80 @@
+.cataImgCard{
+    object-fit: contain;
+    height: 150px;
+    display:block;
+    margin:auto;
+}
+#btnTypology{
+    display: none;
+}
+#divWine, #divCheese, #divHam{
+    cursor: pointer;
+}
+.selctImg{
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(179, 191, 197)); 
+}
+/************************************#F4B223 53575a*/
+/* Slider Range Number */
+.irs--flat .irs-bar {
+    background-color: #F4B223;
+}
+.irs--flat .irs-handle > i:first-child {
+    
+    background-color: #53575a;
+}
+.irs--flat .irs-handle.state_hover>i:first-child, .irs--flat .irs-handle:hover>i:first-child {
+    background-color: #53575a;
+}
+.irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
+    color: white;
+    font-size: 10px;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 5px;
+    background-color: #53575a;
+    border-radius: 4px;
+}
+.irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before {
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: -6px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -3px;
+    overflow: hidden;
+    border: 3px solid transparent;
+    border-top-color: #53575a;
+}
+
+/*Radio Button*/
+.form-check-input:checked {
+    background-color: #F4B223;
+    border-color: #F4B223;
+}
+
+.rbtSpanCount{
+    background: #53575a;
+    margin-left: 4px;
+    padding: 1px 4px;
+    color:white;
+    border-radius: 50px;
+}
+#rbCountAll{
+    margin-left: 8px;
+}
+#rbCountVino{
+    margin-left: 18px;
+}
+
+/* Texto en caso que se muestre resultados al filtrar  */
+.sinResultados{
+   margin-top: 100px;
+   margin-bottom: 250px;
+}
+.numComment{
+    font-style: normal;
+    font-size: medium;
+    margin-left: 2px;
+}
